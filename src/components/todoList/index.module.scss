@@ -1,0 +1,64 @@
+.Container {
+  padding: 20px;
+
+  .row {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  .btn {
+    font-size: 13pt;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c3470;
+    color: black;
+  }
+  .btn:hover {
+    background-color: #282c34c0;
+  }
+  .table {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #282c34;
+    background-color: #282c3460;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  thead {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+
+    .text {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .done {
+      font-size: 20pt;
+    }
+  }
+
+  .divBtn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  .icon {
+    font-size: 13pt;
+    padding: 5px;
+    background-color: #282c3479;
+    color: black;
+  }
+  .icon:hover {
+    background-color: #282c34c0;
+  }
+  .iconDone {
+    font-size: 15pt;
+  }
+}
